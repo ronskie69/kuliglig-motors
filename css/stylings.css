@@ -295,8 +295,12 @@ h6,
 
 @media only screen and (max-width: 576px){
     .tab-pane img {
-        height: 200px !important;
+        height: 180px !important;
         width: 100%;
+    }
+    .tab-pane .moto-info {
+        max-height: 180px !important;
+        overflow-y: auto;
     }
     .list-group {
         font-size: 90% !important;
