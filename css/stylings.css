@@ -293,11 +293,11 @@ h6,
     background-size: cover;
 }
 
-@media only screen and (max-width: 576px){
+/* @media only screen and (max-width: 576px){
     * {
         font-size: 90% !important;
     }
     .btn-read-more {
         font-size: 95% !important;
     }
-}
+} */
