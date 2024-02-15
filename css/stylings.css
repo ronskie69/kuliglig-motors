@@ -276,14 +276,6 @@ h6,
     border-radius: 20px;
 }
 
-.testimonial-carousel .owl-item .testimonial-item img {
-    /* position: absolute;
-    left: 50%;
-    top: 0;
-    transform: translate(-50%,-50%);
-    z-index: 999 !important; */
-}
-
 .testimonial-carousel .owl-item.center .testimonial-item {
     opacity: 1;
 }
