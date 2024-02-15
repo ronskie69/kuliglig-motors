@@ -134,6 +134,13 @@ h6,
 .carousel {
     height: fit-content;
 }
+.carousel-item {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+}
 .carousel-inner .carousel-item img {
     height: 550px;
     width: 100% !important;
