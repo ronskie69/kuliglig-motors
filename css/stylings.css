@@ -211,6 +211,17 @@ h6,
     background: var(--primary);
 }
 
+.promosx .section-title::after {
+    position: absolute;
+    content: "";
+    width: 180px;
+    height: 2px;
+    left: 50%;
+    bottom: 4px;
+    margin-left: -90px;
+    background: #fff;
+}
+
 .contact::after {
     position: absolute;
     content: "";
