@@ -131,10 +131,11 @@ h6,
     text-shadow: 2px 2px 4px black !important;
 }
 
-.hero-header {
-    background: url(../img/body.jpg);
-    position: relative;
-    overflow: hidden;
+.carousel {
+    height: fit-content;
+}
+.carousel-inner .carousel-item img {
+    height: 100vh;
 }
 .carousel-caption {
     position: absolute !important;
