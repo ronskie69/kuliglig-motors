@@ -237,8 +237,7 @@ h6,
 }
 
 .bg-promos {
-    background: linear-gradient(rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/bg.jpg) center center no-repeat;
-    background-size: cover;
+    background: url(../img/body.jpg);
     position: relative;
     overflow: hidden;
 }
