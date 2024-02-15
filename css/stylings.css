@@ -132,11 +132,23 @@ h6,
 }
 
 .hero-header {
-    background: url(../img/bgx.jpg) #2B2825;
-    background-size: cover;
-    background-blend-mode: overlay;
+    background: url(../img/body.jpg);
     position: relative;
     overflow: hidden;
+}
+.carousel-caption {
+    position: absolute !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+
+}
+.carousel-img{
+    filter: brightness(50%);
 }
 
 .nav-pills {
