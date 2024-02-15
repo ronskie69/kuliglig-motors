@@ -135,7 +135,7 @@ h6,
     height: fit-content;
 }
 .carousel-inner .carousel-item img {
-    height: 100vh;
+    height: 550px;
 }
 .carousel-caption {
     position: absolute !important;
