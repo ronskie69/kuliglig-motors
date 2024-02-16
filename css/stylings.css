@@ -38,9 +38,9 @@ h6,
     padding-left: 0;
 }
 .square-bullet-list li:before {
-    content: "\25AA"; /* Unicode character for a solid square */
-    margin-right: 8px; /* Adjust as needed */
-    color: #fff; /* Color of the square */
+    content: "\25AA";
+    margin-right: 8px;
+    color: #fff;
 }
 
 .btn {
@@ -224,6 +224,17 @@ h6,
     left: 50%;
     bottom: 4px;
     margin-left: -90px;
+    background: #fff;
+}
+
+.promosx .section-title::before {
+    position: absolute;
+    content: "";
+    width: 60px;
+    height: 10px;
+    left: 50%;
+    bottom: 0;
+    margin-left: -30px;
     background: #fff;
 }
 
